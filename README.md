@@ -4,7 +4,7 @@
 
 Video tutorial from Felipe Rocha Youtube channel:
 
-Curso de React para Completos Iniciantes [2024]
+```Curso de React para Completos Iniciantes [2024]```
 
 [Link to video](https://www.youtube.com/watch?v=2RWsLmu8yVc)
 
