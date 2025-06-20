@@ -7,10 +7,10 @@ import Title from './components/Title'
 
 function App() {
 
-  const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks")))
+  const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks")) || [])
 
   useEffect(() => {
-    localStorage.setItem(("tasks", JSON.stringify(tasks)) || [])
+    localStorage.setItem("tasks", JSON.stringify(tasks))
   }, [tasks])
 
   // Fetch data from APi when app runs first time
